@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component The component renders no sections as active by default 1`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component only opens one section at a time 1`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+    <p
+      className="content"
+    >
+      aNDDDD SECTION 3 GOESSS  HEREEEE
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component opens a clicked section 1`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+    <p
+      className="content"
+    >
+      SECTION 2 CONTENT IS RIGHT HERE BOOOOYAHH
+    </p>
+  </li>
+  <li>
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordion Component renders empty given no tabs 1`] = `<ul />`;
+
+exports[`Accordion Component renders the first tab by default 1`] = `
+<ul>
+  <li>
+    <button
+      key="0"
+      onClick={[Function]}
+    >
+      Section 1
+    </button>
+  </li>
+  <li>
+    <button
+      key="1"
+      onClick={[Function]}
+    >
+      Section 2
+    </button>
+  </li>
+  <li>
+    <button
+      key="2"
+      onClick={[Function]}
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
